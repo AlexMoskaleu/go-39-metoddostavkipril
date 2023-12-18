@@ -19,7 +19,7 @@ test:
   image: golang:1.15
   script:
     - go test -v ./...
-
+    -
 lint:
   stage: test
   image: golang:1.15
